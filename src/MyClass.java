@@ -5,6 +5,7 @@ public class MyClass {
 	}
 	public void anotherMethod() {
 		System.out.println("Sup Ashley!?!?");
+		System.out.println("I created a second branch");
 	}
 	public void aMethod(){
 		System.out.println("Hi Matt! How's it going?");
