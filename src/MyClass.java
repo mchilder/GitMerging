@@ -8,6 +8,9 @@ public class MyClass {
 		System.out.println("I'm just going to keep typing things");
 		System.out.println("I'm jadding more stuff");
 	}
+	public void newMethod() {
+		System.out.println("What else are we supposed to do?");
+	}
 	public static void main(String[] args) {
 		MyClass aClass = new MyClass();
 		aClass.aMethod();
