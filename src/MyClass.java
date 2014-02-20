@@ -1,10 +1,13 @@
 
 public class MyClass {
+	public MyClass() {
+		// Constructor
+	}
 	public void aMethod(){
 		System.out.println("Hi Matt! How's it going?");
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		MyClass aClass = new MyClass();
+		aClass.aMethod();
 	}
-
 }
